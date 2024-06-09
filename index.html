@@ -40,9 +40,16 @@
             margin-top: 10px;
             cursor: pointer;
         }
+        .add-button {
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+            margin-right: 5px; /* Space between buttons */
+        }
         .info-button {
             background-color: #007BFF;
             margin-top: 5px;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
         }
         /* Modal styles */
         .modal {
@@ -129,6 +136,7 @@
 
                         const addButton = document.createElement('button');
                         addButton.textContent = 'ADD';
+                        addButton.classList.add('add-button');
                         addButton.onclick = () => addItemToCart(item);
 
                         const infoButton = document.createElement('button');
