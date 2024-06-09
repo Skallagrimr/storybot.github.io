@@ -187,6 +187,7 @@
         tg.onEvent('mainButtonClicked', function() {
             if (selectedItem) {
                 tg.sendData(selectedItem);
+                tg.close(); // Close the web app
             }
         });
     </script>
