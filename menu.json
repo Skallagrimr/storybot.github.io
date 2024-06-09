@@ -1,0 +1,16 @@
+{
+    "menuItems": [
+        { "name": "Burger", "price": 4.99, "description": "A delicious burger with lettuce, tomato, and cheese." },
+        { "name": "Fries", "price": 1.49, "description": "Crispy golden fries." },
+        { "name": "Hotdog", "price": 3.49, "description": "A tasty hotdog with ketchup and mustard." },
+        { "name": "Taco", "price": 3.99, "description": "A spicy taco with beef, lettuce, and cheese." },
+        { "name": "Pizza", "price": 7.99, "description": "A slice of pizza with pepperoni and cheese." },
+        { "name": "Donut", "price": 1.49, "description": "A sweet donut with chocolate icing and sprinkles." },
+        { "name": "Popcorn", "price": 1.99, "description": "Buttered popcorn perfect for movie time." },
+        { "name": "Coke", "price": 1.49, "description": "A refreshing can of Coke." },
+        { "name": "Cake", "price": 10.99, "description": "A slice of delicious cake with strawberry topping." },
+        { "name": "Icecream", "price": 5.99, "description": "Creamy vanilla ice cream in a cone." },
+        { "name": "Cookie", "price": 3.99, "description": "A chocolate chip cookie." },
+        { "name": "Flan", "price": 7.99, "description": "A sweet and creamy flan." }
+    ]
+}
