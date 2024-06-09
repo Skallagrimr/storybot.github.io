@@ -96,9 +96,16 @@
         let selectedItem = null;
 
         document.addEventListener('DOMContentLoaded', () => {
+            console.log("DOMContentLoaded");
             fetch('menu.json')
-                .then(response => response.json())
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
                 .then(data => {
+                    console.log("Menu data loaded:", data);
                     const menuContainer = document.getElementById('menu-container');
                     data.menuItems.forEach((item, index) => {
                         const menuItem = document.createElement('div');
@@ -126,6 +133,9 @@
                         menuItem.appendChild(infoButton);
                         menuContainer.appendChild(menuItem);
                     });
+                })
+                .catch(error => {
+                    console.error('Error loading menu data:', error);
                 });
 
             // Modal handling
