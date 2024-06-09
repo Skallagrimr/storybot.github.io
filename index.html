@@ -10,12 +10,16 @@
             color: #fff;
             font-family: Arial, sans-serif;
             display: flex;
-            flex-wrap: wrap;
             justify-content: center;
         }
+        #menu-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 1200px;
+            padding: 20px;
+        }
         .menu-item {
-            width: 150px;
-            margin: 10px;
             text-align: center;
         }
         .menu-item img {
