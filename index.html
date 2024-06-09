@@ -22,12 +22,23 @@
         }
         .menu-item {
             text-align: center;
+            padding: 10px; /* Add padding to create some space inside the item */
+            background: #fff; /* Add background for visual separation */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for emphasis */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         .menu-item img {
             width: 100%;
             max-width: 150px;
-            height: 200px;
+            height: 150px;
             object-fit: cover; /* Ensures the image maintains aspect ratio while filling the given dimensions */
+            margin-bottom: 10px; /* Space between image and text */
+        }
+        .menu-item p {
+            margin: 5px 0; /* Reduced margin to bring text closer to image and buttons */
         }
         .menu-item button {
             background-color: #FFA500;
@@ -38,17 +49,17 @@
             text-decoration: none;
             display: inline-block;
             font-size: 16px;
-            margin-top: 10px;
+            margin-top: 5px; /* Reduced margin to bring buttons closer to text */
             cursor: pointer;
         }
         .add-button {
             border-top-left-radius: 15px;
             border-bottom-left-radius: 15px;
-            margin-right: 5px; /* Space between buttons */
+            margin-right: 0; /* Removed right margin to eliminate space between buttons */
         }
         .info-button {
             background-color: #007BFF;
-            margin-top: 5px;
+            margin-top: 5px; /* Reduced margin to bring buttons closer to text */
             border-top-right-radius: 15px;
             border-bottom-right-radius: 15px;
         }
