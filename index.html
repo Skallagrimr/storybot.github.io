@@ -40,6 +40,11 @@
         .menu-item p {
             margin: 5px 0; /* Reduced margin to bring text closer to image and buttons */
         }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
         .menu-item button {
             background-color: #FFA500;
             border: none;
@@ -55,7 +60,7 @@
         .add-button {
             border-top-left-radius: 15px;
             border-bottom-left-radius: 15px;
-            margin-right: 0; /* Removed right margin to eliminate space between buttons */
+            margin-right: 5px; /* Space between buttons */
         }
         .info-button {
             background-color: #007BFF;
@@ -146,6 +151,9 @@
                         const name = document.createElement('p');
                         name.textContent = `${item.name}`;
 
+                        const buttonContainer = document.createElement('div');
+                        buttonContainer.classList.add('button-container');
+
                         const addButton = document.createElement('button');
                         addButton.textContent = 'ADD';
                         addButton.classList.add('add-button');
@@ -156,10 +164,12 @@
                         infoButton.classList.add('info-button');
                         infoButton.onclick = () => showInfo(item.name, item.description);
 
+                        buttonContainer.appendChild(addButton);
+                        buttonContainer.appendChild(infoButton);
+
                         menuItem.appendChild(img);
                         menuItem.appendChild(name);
-                        menuItem.appendChild(addButton);
-                        menuItem.appendChild(infoButton);
+                        menuItem.appendChild(buttonContainer);
                         menuContainer.appendChild(menuItem);
                     });
                 })
