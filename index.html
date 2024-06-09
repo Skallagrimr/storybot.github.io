@@ -196,6 +196,7 @@
 
         function addItemToCart(item) {
             selectedItem = item.name;
+            selectedFile = item.file
             tg.MainButton.setText(`Selected: ${item.name}`);
             tg.MainButton.show();
         }
@@ -208,7 +209,7 @@
 
         tg.onEvent('mainButtonClicked', function() {
             if (selectedItem) {
-                tg.sendData(selectedItem);
+                tg.sendData(selectedFile);
                 tg.close(); // Close the web app
             }
         });
