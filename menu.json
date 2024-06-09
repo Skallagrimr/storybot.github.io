@@ -1,17 +1,17 @@
 {
     "menuItems": [
-        { "name": "Dante", "price": 4.99, "description": "A delicious burger with lettuce, tomato, and cheese." },
-        { "name": "Amara", "price": 1.49, "description": "Crispy golden fries." },
-        { "name": "AwkwardFM", "price": 3.49, "description": "A tasty hotdog with ketchup and mustard." },
-        { "name": "Dr.Smith", "price": 3.99, "description": "A spicy taco with beef, lettuce, and cheese." },
-        { "name": "Dr.Valentina", "price": 7.99, "description": "A slice of pizza with pepperoni and cheese." },
-        { "name": "Elizabeth", "price": 1.49, "description": "A sweet donut with chocolate icing and sprinkles." },
-        { "name": "Katya", "price": 1.99, "description": "Buttered popcorn perfect for movie time." },
-        { "name": "Luna", "price": 1.49, "description": "A refreshing can of Coke." },
-        { "name": "Mara", "price": 10.99, "description": "A slice of delicious cake with strawberry topping." },
-        { "name": "Plague Doctor", "price": 5.99, "description": "Creamy vanilla ice cream in a cone." },
-        { "name": "Princess Amalia", "price": 3.99, "description": "A chocolate chip cookie." },
-        { "name": "Rebecca", "price": 7.99, "description": "A sweet and creamy flan." },
-        { "name": "Damien", "price": 7.99, "description": "A sweet and creamy flan." }
+        { "name": "Dante", "file": "main_4134aa6a-cb19-41de-a699-253dd0cccea5_spec_v2.png", "description": "A delicious burger with lettuce, tomato, and cheese." },
+        { "name": "Amara", "file": "main_Amara_spec_v2.png", "description": "Crispy golden fries." },
+        { "name": "AwkwardFM", "file": "main_awkward-questions-fm_spec_v2.png", "description": "A tasty hotdog with ketchup and mustard." },
+        { "name": "Dr.Smith", "file": "main_doctor-smith-727a6863_spec_v2.png", "description": "A spicy taco with beef, lettuce, and cheese." },
+        { "name": "Dr.Valentina", "file": "main_doctor-valentina_spec_v2.png", "description": "A slice of pizza with pepperoni and cheese." },
+        { "name": "Elizabeth", "file": "main_elizabeth-the-destructive-telekinetic-cbff88e7_spec_v2.png", "description": "A sweet donut with chocolate icing and sprinkles." },
+        { "name": "Katya", "file": "main_Katya_spec_v2.png", "description": "Buttered popcorn perfect for movie time." },
+        { "name": "Luna", "file": "main_luna-175b3766196a_spec_v2.png", "description": "A refreshing can of Coke." },
+        { "name": "Mara", "file": "main_mara-childhood-friend-on-the-beach-08ee65779ea1_spec_v2.png", "description": "A slice of delicious cake with strawberry topping." },
+        { "name": "Plague Doctor", "file": "main_plague-doctor-494c50af_spec_v2.png", "description": "Creamy vanilla ice cream in a cone." },
+        { "name": "Princess Amalia", "file": "main_princess-amalia-arcanisse_spec_v2 (1).png", "description": "A chocolate chip cookie." },
+        { "name": "Rebecca", "file": "main_Rebecca_spec_v2.png", "description": "A sweet and creamy flan." },
+        { "name": "Damien", "file": "main_the-injured-villain-on-your-doorstep_spec_v2.png", "description": "A sweet and creamy flan." }
     ]
 }
